@@ -1,7 +1,7 @@
 
 title: My Resume
 url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
+baseurl: '/android-goodies-docs-PRO' #change it according to your repository name
 
 
 # Enable one of these styles by removing #
@@ -26,4 +26,3 @@ website: blog.webjeda.com #do not add http://
 linkedin: alandoe
 github: alandoe
 twitter: '@twittername'
-
