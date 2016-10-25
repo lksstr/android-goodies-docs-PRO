@@ -4,7 +4,7 @@ output: web
 topnav_title: Android Goodies PRO Documentation
 # this appears on the top navigation bar next to the home button
 
-site_title: Jekyll theme for documentation
+site_title: Android Goodies PRO Documentation
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Your company
@@ -58,6 +58,7 @@ collections:
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 defaults:
+
   -
     scope:
       path: ""
@@ -66,7 +67,8 @@ defaults:
       layout: "page"
       comments: true
       search: true
-      sidebar: home_sidebar
+      sidebar: "home_sidebar"
+      hello: "xxx"
   -
     scope:
       path: ""
@@ -91,6 +93,8 @@ defaults:
 
 sidebars:
 - home_sidebar
+- ag_sidebar
+- ig_sidebar
 - mydoc_sidebar
 - product1_sidebar
 - product2_sidebar

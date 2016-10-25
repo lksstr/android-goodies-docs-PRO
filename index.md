@@ -2,7 +2,7 @@
 title: Getting started with the Documentation Theme for Jekyll
 keywords: sample homepage
 tags: [getting_started]
-sidebar: mydoc_sidebar
+sidebar: ag_sidebar
 permalink: index.html
 summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
 ---
@@ -35,7 +35,7 @@ You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed 
 ### 4. Option 1: Build the Theme (*without* the github-pages gem) {#option1}
 
 Use this option if you're not planning to publish your Jekyll site using [Github Pages](https://pages.github.com/).
- 
+
 Bundler's Gemfile is how it specifies and manages project dependencies are managed. Although this project includes a Gemfile, this theme doesn't have any dependencies beyond core Jekyll. The Gemfile is used to specify gems needed for publishing on Github Pages. If you're not planning to have Github Pages build your Jekyll project, delete these two files from the theme's root directory:
 
 * Gemfile
@@ -55,7 +55,7 @@ jekyll serve
 
 ### 4. Option 2: Build the Theme (*with* the github-pages gem) {#option2}
 
-If you *are* in fact publishing on Github Pages, leave the Gemfile and Gemfile.lock files in the theme.The Gemfile tells Jekyll to use the github-pages gem. **However, note that you cannot use the normal `jekyll serve` command with this gem due to dependency conflicts between the latest version of Jekyll and Github Pages** (which are noted [briefly here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/). 
+If you *are* in fact publishing on Github Pages, leave the Gemfile and Gemfile.lock files in the theme.The Gemfile tells Jekyll to use the github-pages gem. **However, note that you cannot use the normal `jekyll serve` command with this gem due to dependency conflicts between the latest version of Jekyll and Github Pages** (which are noted [briefly here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
 
 You need Bundler to resolve these dependency conflicts. Use Bundler to install all the needed Ruby gems:
 
